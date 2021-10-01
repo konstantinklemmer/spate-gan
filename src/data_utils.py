@@ -9,6 +9,7 @@ import subprocess
 import argparse
 import time
 from datetime import datetime
+import numpy as np
 
 import cv2
 import torch.nn as nn
