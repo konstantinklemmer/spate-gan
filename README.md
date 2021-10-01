@@ -1,7 +1,16 @@
 # PyTorch implementation of SPATE-GAN
 
-This is the official repository for the paper [SPATE-GAN: Improved Generative Modeling of Dynamic Spatio-Temporal Patterns with an Autoregressive Embedding Loss](https://arxiv.org/).
+![Generated data from the turbulent flows dataset](https://raw.githubusercontent.com/konstantinklemmer/spate-gan/main/images/tf.png)
 
+This is the official repository for the paper [SPATE-GAN: Improved Generative Modeling of Dynamic Spatio-Temporal Patterns with an Autoregressive Embedding Loss](https://arxiv.org/) (Konstantin Klemmer\*, Tianlin Xu\*, Beatrice Acciaio, Daniel B. Neill).
+
+\* These authors contributed equally.
+
+## Structure
+
+The source code for *SPATE-GAN* can be found in the `src` folder. It builds on the code base for *[COT-GAN](https://papers.nips.cc/paper/2020/file/641d77dd5271fca28764612a028d9c8e-Paper.pdf)* (NeurIPS 2020), accessible here: \[[Tensorflow](https://github.com/tianlinxu312/cot-gan),[PyTorch](https://github.com/tianlinxu312/cot-gan-pytorch)\]
+
+We also provide an interactive example notebook to test *SPATE_GAN* via Google Colab [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/konstantinklemmer/spate-gan/blob/master/spate_gan_example.ipynb)
 
 ## Citation 
 
