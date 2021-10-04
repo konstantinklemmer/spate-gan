@@ -1,7 +1,7 @@
 # PyTorch implementation of SPATE-GAN
 
-<p style="text-align: center;">
 ![Real and generated data from the turbulent flows dataset](https://raw.githubusercontent.com/konstantinklemmer/spate-gan/main/images/tf.png)
+<p style="text-align: center;">
 *(Real and generated data from the turbulent flows dataset)*
 </p>
 
