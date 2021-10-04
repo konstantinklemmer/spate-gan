@@ -1,6 +1,7 @@
 # PyTorch implementation of SPATE-GAN
 
 ![Real and generated data from the turbulent flows dataset](https://raw.githubusercontent.com/konstantinklemmer/spate-gan/main/images/tf.png)
+
 *(Real and generated data from the turbulent flows dataset)*
 
 This is the official repository for the paper [SPATE-GAN: Improved Generative Modeling of Dynamic Spatio-Temporal Patterns with an Autoregressive Embedding Loss](https://arxiv.org/abs/2109.15044/) (Konstantin Klemmer\*, Tianlin Xu\*, Beatrice Acciaio, Daniel B. Neill).
@@ -16,6 +17,7 @@ We also provide an interactive example notebook to test *SPATE-GAN* via Google C
 ## SPATE - SPAtio-TEmporal Association
 
 ![The different approaches for obtaining the spatio-temporal expectations needed to compute SPATE](https://raw.githubusercontent.com/konstantinklemmer/spate-gan/main/images/stx.png)
+
 *(The different approaches for obtaining the spatio-temporal expectations needed to compute SPATE)*
 
 Contained within the `src` folder, the `spatial_utils.py` file contains all needed functions to compute the *SPATE* embedding in its different configurations.
@@ -23,6 +25,7 @@ Contained within the `src` folder, the `spatial_utils.py` file contains all need
 Beyond our new *SPATE* metric, `spatial_utils.py` also includes the (to our knowledge) first `PyTorch` implementation of the original local Moran's I metric, along with the capacity to compute it for batches of spatial patterns / images.  
 
 ![Differences between Moran's I and SPATE in its different configurations](https://raw.githubusercontent.com/konstantinklemmer/spate-gan/main/images/emb.png)
+
 *(Differences between Moran's I and SPATE in its different configurations)*
 	
 ## Citation 
