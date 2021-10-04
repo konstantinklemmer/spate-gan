@@ -18,11 +18,7 @@ We also provide an interactive example notebook to test *SPATE-GAN* via Google C
 ![The different approaches for obtaining the spatio-temporal expectations needed to compute SPATE](https://raw.githubusercontent.com/konstantinklemmer/spate-gan/main/images/stx.png)
 *(The different approaches for obtaining the spatio-temporal expectations needed to compute SPATE)*
 
-Contained within the `src` folder, the `spatial_utils.py` file contains all needed functions to compute the *SPATE* embedding in its different configurations: 
-
-1. Kulldorff: $\mu_{it}^{(k)} = \frac{\sum_{j} x_{jt} \sum_{t'} x_{it'}}{\sum_{j} \sum_{t'} x_{jt'}}$
-2. Kulldorff-weighted: $$\mu_{it}^{(kw)} = \frac{\sum_j x_{jt} \sum_{t'} b_{tt'} x_{it'}}{\sum_j \sum_{t'} b_{tt'} x_{jt'}}$$
-3. Sequential Kulldorff-weighted: $$\mu_{it}^{(ksw)} = \frac{\sum_j x_{jt} \sum_{t' < t} b_{tt'} x_{it'}}{\sum_j \sum_{t' < t} b_{tt'} x_{jt'}}$$
+Contained within the `src` folder, the `spatial_utils.py` file contains all needed functions to compute the *SPATE* embedding in its different configurations.
 
 Beyond our new *SPATE* metric, `spatial_utils.py` also includes the (to our knowledge) first `PyTorch` implementation of the original local Moran's I metric, along with the capacity to compute it for batches of spatial patterns / images.  
 
