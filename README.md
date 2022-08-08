@@ -33,12 +33,16 @@ Beyond our new *SPATE* metric, `spatial_utils.py` also includes the (to our know
 If you want to cite our work, you can use the following reference:
 
 ```
-@misc{klemmer2021spategan,
-	    title={SPATE-GAN: Improved Generative Modeling of Dynamic Spatio-Temporal Patterns with an Autoregressive Embedding Loss},
-	    author={Konstantin Klemmer and Tianlin Xu and Beatrice Acciaio and Daniel B. Neill},
-	    year={2021},
-	    eprint={2109.15044},
-	    archivePrefix={arXiv},
-	    primaryClass={cs.LG}
+@article{klemmer2022spategan, 
+		title={SPATE-GAN: Improved Generative Modeling of Dynamic Spatio-Temporal Patterns with an Autoregressive Embedding Loss}, 
+		volume={36}, 
+		url={https://ojs.aaai.org/index.php/AAAI/article/view/20375}, 
+		DOI={10.1609/aaai.v36i4.20375}, 
+		number={4}, 
+		journal={Proceedings of the AAAI Conference on Artificial Intelligence}, 
+		author={Klemmer, Konstantin and Xu, Tianlin and Acciaio, Beatrice and Neill, Daniel B.}, 
+		year={2022}, 
+		month={Jun.},
+		pages={4523-4531}
 }
 ```
